@@ -1,0 +1,191 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    /* 设置盒子模型为弹性布局 */
+    display: flex;
+    /* 水平方向对齐方式为左对齐 */
+    justify-content: left;
+    /* 垂直方向对齐方式为居中对齐 */
+    align-items: center;
+    /* 主轴方向为水平方向 */
+    flex-direction: row;
+    /* 换行方式为换行 */
+    flex-wrap: wrap;
+    /* 底部边框为1px的实线，颜色为#efefef */
+    border-bottom: 1px #efefef solid;
+    /* 内边距为2em */
+    padding: 2em 0 2em 0;
+
+    /* 图片盒子 */
+    .paper-box-image{
+        /* 水平方向对齐方式为居中对齐 */
+        justify-content: center;
+        /* 设置盒子模型为弹性布局 */
+        display: flex;
+        /* 宽度为100% */
+        width: 100%;
+        /* 图片盒子的顺序为2 */
+        order: 2;
+        /* 图片 */
+        img {
+            /* 最大宽度为400px */
+            max-width: 400px;
+            /* 图片阴影为3px 3px 6px #888 */
+            box-shadow: 3px 3px 6px #888;
+            /* 图片适应方式为覆盖 */
+            object-fit: cover;
+        }
+    }
+    
+    /* 文字盒子 */
+    .paper-box-text{
+        /* 最大宽度为100% */
+        max-width: 100%;
+        /* 文字盒子的顺序为1 */
+        order: 1;
+    }
+    
+    /* 媒体查询，当屏幕宽度大于等于$medium时 */
+    @include breakpoint($medium) {
+        /* 图片盒子 */
+        .paper-box-image{
+            /* 水平方向对齐方式为左对齐 */
+            justify-content: left;
+            /* 最小宽度为200px */
+            min-width: 200px;
+            /* 最大宽度为40% */
+            max-width: 40%;
+            /* 图片盒子的顺序为1 */
+            order: 1;
+        }
+        
+        /* 文字盒子 */
+        .paper-box-text{
+            /* 水平方向对齐方式为左对齐 */
+            justify-content: left;
+            /* 左内边距为2em */
+            padding-left: 2em;
+            /* 最大宽度为60% */
+            max-width: 60%;
+            /* 文字盒子的顺序为2 */
+            order: 2;
+        }
+    }
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+/* 定义一个名为badge的类 */
+.badge {
+    /* 设置左边内边距为1rem */
+    padding-left: 1rem;
+    /* 设置右边内边距为1rem */
+    padding-right: 1rem;
+    /* 设置定位为绝对定位 */
+    position: absolute;
+    /* 设置上边距为0.5em */
+    margin-top: .5em;
+    /* 设置左边距为-0.5em */
+    margin-left: -.5em;
+    /* 设置文字颜色为白色 */
+    color: white;
+    /* 设置背景颜色为#00369f */
+    background-color: #00369f;
+    /* 设置字体大小为0.8em */
+    font-size: .8em;
+}
+
+
+.person-box {
+    /* 设置盒子模型为弹性布局 */
+    display: flex;
+    /* 水平方向对齐方式为左对齐 */
+    justify-content: flex-start;
+    /* 垂直方向对齐方式为居中对齐 */
+    align-items: center;
+    /* 主轴方向为水平方向 */
+    flex-direction: row;
+    /* 换行方式为换行 */
+    flex-wrap: wrap;
+    /* 底部边框为1px的实线，颜色为#efefef */
+    border-bottom: 1px #efefef solid;
+    /* 内边距为2em */
+    padding: 1em 0 1em 0;
+    // background-color: #303237;
+    
+
+    /* 图片盒子 */
+    .person-box-image{
+        justify-content: left;
+        min-width: 200px;
+        max-width: 25%;
+        order: 1;
+        /* 图片 */
+        img {
+            /* 最大宽度为400px */
+            max-width: 400px;
+            /* 图片阴影为3px 3px 6px #888 */
+            box-shadow: 3px 3px 6px #888;
+            /* 图片适应方式为覆盖 */
+            object-fit: cover;
+        }
+        // background-color: aqua;
+    }
+    
+    /* 文字盒子 */
+    .person-box-text{
+        justify-content: left;
+        padding-left: 2em;
+        max-width: 70%;
+        order: 2;
+        // background-color: aquamarine;
+    }
+}

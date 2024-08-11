@@ -1,0 +1,26 @@
+ShaoHaoluo:
+  name: "邵浩洛"
+  avatar: "images/ShaoHaoluo/head_square.png"
+  bio: "华中科技大学"
+  location: "湖北 武汉"
+  description: "SLAM、State Estimation、Robotics"
+  CV: pdf/ShaoHaoluo/SLAM算法工程师_邵浩洛-v2.pdf
+  email: "shao-haoluo@foxmail.com"
+  github: Speike-SHL
+ChenKai:
+  name: "陈凯"
+  avatar: "images/android-chrome-512x512.png"
+  bio: "华中科技大学"
+  location: "湖北 武汉"
+  description: "陈凯的描述"
+  email: 
+  github: 
+QiaoSiyuan:
+  name: "乔思远"
+  avatar: "images/android-chrome-512x512.png"
+  bio: "华中科技大学"
+  location: "湖北 武汉"
+  description: "乔思远的描述"
+  email: 
+  github: 
+

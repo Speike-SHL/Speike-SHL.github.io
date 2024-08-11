@@ -1,0 +1,48 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+  <style>
+    #group {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  {% include browser-upgrade.html %}
+  <!-- {% include masthead.html %} -->
+
+  <div id="main" role="main">
+    <!-- {% include sidebar.html %} -->
+
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="page__inner-wrap">
+        <section class="page__content" itemprop="text">
+          {{ content }}
+        </section>
+      </div>
+    </article>
+  </div>
+
+  {% include scripts.html %}
+
+  <div class="footer_site">
+    <hr />
+    <div class="footer_copyright">
+      © 2024 华中大 · 邵浩洛 | 基于&nbsp
+      <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">
+        acad
+      </a>&nbsp模板 - 首页
+    </div>
+  </div>
+</body>
+
+</html>

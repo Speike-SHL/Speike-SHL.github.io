@@ -1,0 +1,20 @@
+# main links links
+# 在_includes/masthead.html中被调用
+main:
+  - title: "简介"
+    url: "#about-me"
+
+  - title: "学历"
+    url: "#-xl"
+
+  - title: "论文专利"
+    url: "#-lwzl"
+
+  - title: "荣誉奖项"
+    url: "#-ryjx"
+
+  - title: "学术会议"
+    url: "#-xshy"
+
+  - title: "工作实习"
+    url: "#-gzsx"

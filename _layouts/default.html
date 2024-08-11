@@ -1,0 +1,53 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <!-- 引入head.html文件 -->
+    {% include head.html %}
+    <!-- 引入自定义的head.html文件 -->
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    <!-- 引入浏览器升级提示页面 -->
+    {% include browser-upgrade.html %}
+    <!-- 引入页眉页面 -->
+    {% include masthead.html %}
+
+    <!-- 主内容区域 -->
+    <div id="main" role="main">
+      <!-- 引入侧边栏页面 -->
+      {% include sidebar.html %}
+    
+      <!-- 文章内容 -->
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        <!-- 如果页面有标题，则添加meta标签 -->
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          <!-- 文章内容区域 -->
+          <section class="page__content" itemprop="text">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </div>
+
+    <!-- 引入脚本文件 -->
+    {% include scripts.html %}
+
+<!-- 页脚 -->
+<div class="footer_site">
+<hr/>
+<div class="footer_copyright">
+  © 2024 华中大 · 邵浩洛 | 基于&nbsp
+  <a class="page_a"  href="https://github.com/RayeRen/acad-homepage.github.io">
+  acad
+  </a>&nbsp模板
+</div>
+</div>
+  </body>
+</html>
