@@ -18,7 +18,8 @@ layout: "default"
 <!-- 这是一个锚点，用于在页面中定位 -->
 <span class='anchor' id='about-me'></span>
 
-我将硕士毕业于[华中科技大学](https://www.hust.edu.cn/) [机械科学与工程学院](https://mse.hust.edu.cn/) [智能制造装备与技术全国重点实验室](https://dmet.hust.edu.cn/)，我的导师是[李益群教授](https://mse.hust.edu.cn/info/1142/1360.htm)，大导师是[熊有伦院士](https://www.hust.edu.cn/info/1133/9445.htm)。
+我将硕士毕业于[华中科技大学](https://www.hust.edu.cn/) [机械科学与工程学院](https://mse.hust.edu.cn/) [智能制造装备与技术全国重点实验室](https://dmet.hust.edu.cn/)，我的导师是[李益群教授](https://mse.hust.edu.cn/info/1142/1360.htm)。
+<!-- ，大导师是[熊有伦院士](https://www.hust.edu.cn/info/1133/9445.htm) -->
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
 
 我的研究领域包括: 
@@ -46,7 +47,7 @@ layout: "default"
 **轮腿混合式机器人状态估计与高程地图构建**
 
 **成果:**  `Haoluo Shao`, Kai Chen, Yiqun Li\*. VIEW: Visual Inertial Legged-Wheeled Odometry for Probabilistic Elevation Mapping. 
-[[预览]]()
+<!-- [[预览]]() -->
 
 </div>
 </div>
@@ -57,7 +58,7 @@ layout: "default"
 **星表旋翼飞行机器人几何非线性控制与状态估计**
 
 **成果:** Siyuan Qiao, `Haoluo Shao`, Yiqun Li, Zhouping Yin\*. Geometric adaptive neural controller and optical flow based invariant extended Kalman filter for Mars quadrotor under disturbance. *Journal of Field Robotics*. (JCR:Q2; IF: 4.599)  
-[[预览]]()
+<!-- [[预览]]() -->
 
 </div>
 </div>
@@ -72,7 +73,7 @@ layout: "default"
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images\500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images\ShaoHaoluo\第十六届智能车.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **第十六届全国大学生智能车竞赛航天智慧物流组比赛**
@@ -89,6 +90,7 @@ layout: "default"
 # 🏅 荣誉奖项
 - *2023.12* 获得 华中科技大学2023-2024学年 `校二等硕士学业奖学金` [[证书]](pdf\ShaoHaoluo\邵浩洛-华科2023-2024校二等奖学金.pdf)
 - *2022.12* 获得 华中科技大学2022-2023学年 `校一等硕士学业奖学金` [[证书]](pdf\ShaoHaoluo\邵浩洛-华科2022-2023校一等奖学金.pdf)
+- *2022.06* 获得 武汉理工大学2022届优秀毕业生
 - *2021.09* 获得 第十六届全国大学生智能汽车竞赛 航天智慧物流组 `全国总决赛国家二等奖` [[证书]](pdf\ShaoHaoluo\邵浩洛-第十六届智能车竞赛-国赛.pdf)
 - *2021.07* 获得 第十六届全国大学生智能汽车竞赛 航天智慧物流组 `南部赛区一等奖` [[证书]](pdf\ShaoHaoluo\邵浩洛-第十六届智能车竞赛-省赛.pdf)
 - *2020.11* 获得 武汉理工大学2019-2020学年 `校一等学业奖学金` [[证书]](pdf\ShaoHaoluo\邵浩洛-武理2019-2020校一等奖学金.pdf)
