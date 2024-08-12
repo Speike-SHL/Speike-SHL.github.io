@@ -40,48 +40,64 @@ layout: "default"
 
 # 📝 科研经历
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sensors 2022</div><img src='images/sensors2022.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript is complete, tutor reviewing</div><img src='images\500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Jian Tang`, Rongbiao Wang, Gongzhe Qiu, Yu Hu, Yihua Kang. Mechanism of magnetic flux leakage detection method based on the slotted ferromagnetic lift-off layer. *Sensors*, 2022, 22(9): 3587. (JCR:Q2; IF:3.847)  
-[[网页]](https://dx.doi.org/10.3390/s22093587) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf) [[下载]](/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf)
+**轮腿混合式机器人状态估计与高程地图构建**
+
+**成果:**  `Haoluo Shao`, Kai Chen, Yiqun Li\*. VIEW: Visual Inertial Legged-Wheeled Odometry for Probabilistic Elevation Mapping. 
+[[预览]]()
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/sna2021.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JFR (Minor Revision)</div><img src='images\ShaoHaoluo\火星无人机.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Jian Tang`, Rongbiao Wang, Bocheng Liu, Yihua Kang. A novel magnetic flux leakage method based on the ferromagnetic lift-off layer with through groove. *Sensors and Actuators A: Physical*. 2021: 113091. (JCR:Q1; IF:4.291)  
-[[网页]](https://dx.doi.org/10.1016/j.sna.2021.113091) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf) [[下载]](/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf)
+**星表旋翼飞行机器人几何非线性控制与状态估计**
+
+**成果:** Siyuan Qiao, `Haoluo Shao`, Yiqun Li, Zhouping Yin\*. Geometric adaptive neural controller and optical flow based invariant extended Kalman filter for Mars quadrotor under disturbance. *Journal of Field Robotics*. (JCR:Q2; IF: 4.599)  
+[[预览]]()
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Int. J. Appl. Electrom. 2020</div><img src='images/ijaem2020.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images\ShaoHaoluo\环视拼接.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Jian Tang`, Rongbiao Wang, Jikai Zhang, Yihua Kang. The influence of magnetic head’s pose on magnetic flux leakage detection. *International Journal of Applied Electromagnetics and Mechanics*. 2020, 64(1–4): 493–500. (JCR:Q4; IF:0.536)  
-[[网页]](https://dx.doi.org/10.3233/JAE-209356) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2020-The%20influence%20of%20magnetic%20head%E2%80%99s%20pose%20on%20magnetic%20flux%20leakage%20detection.pdf) [[下载]](/pdf/TangJ-2020-The%20influence%20of%20magnetic%20head%E2%80%99s%20pose%20on%20magnetic%20flux%20leakage%20detection.pdf)
+**自动泊车场景中的AVM环视系统构建**
+
+本项目针对自动泊车场景，采用**4台森云**SG2-IMX390**环视相机**，依次进行相机内参标定、去畸变、四路相机联合标定、投影变换、鸟瞰图拼接与融合等步骤，成功构建出全景环视系统（AVM）。此外，通过对鸟瞰图的细节优化，极大程度上减轻了边缘伪影和色差。并先后在一台全尺寸四驱四轮转向金属3D打印电车底盘和一台**领克09**上进行了**实验验证**。
 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images\500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**第十六届全国大学生智能车竞赛航天智慧物流组比赛**
+
+主要负责阿克曼移动机器人的**感知与定位**。包括使用Cartographer算法进行**2D栅格地图**的构建、结合ROS中的**Navigation**框架实现机器人的精准定位与导航；使用**OpenCV**进行车道线的识别等功能。此外，作为队长还协助硬件组队员完成Jetson Nano与**STM32通信算法**的编写，全面把控比赛方案，包括任务分配，进度跟踪和难题探讨，确保团队高效协作达成目标。
+
+**成果:** 全国总决赛国家二等奖
+
+</div>
+</div>
 
 <span class='anchor' id='-ryjx'></span>
 
 # 🏅 荣誉奖项
-- *2023.12* 获得 华中科技大学2023-2024学年 `校二等硕士学业奖学金` [[证书]]()
-- *2022.12* 获得 华中科技大学2022-2023学年 `校一等硕士学业奖学金` [[证书]]()
-- *2021.09* 获得 第十六届全国大学生智能汽车竞赛 航天智慧物流组 `全国总决赛国家二等奖` [[证书]]()
-- *2021.07* 获得 第十六届全国大学生智能汽车竞赛 航天智慧物流组 `南部赛区一等奖` [[证书]]()
-- *2020.11* 获得 武汉理工大学2019-2020学年 `校一等学业奖学金` [[证书]]()
-- *2020.11* 获得 武汉理工大学2019-2020学年 `校三好学生` [[证书]]()
-- *2019.11* 获得 武汉理工大学2018-2019学年 `校三等学业奖学金` [[证书]]()
+- *2023.12* 获得 华中科技大学2023-2024学年 `校二等硕士学业奖学金` [[证书]](pdf\ShaoHaoluo\邵浩洛-华科2023-2024校二等奖学金.pdf)
+- *2022.12* 获得 华中科技大学2022-2023学年 `校一等硕士学业奖学金` [[证书]](pdf\ShaoHaoluo\邵浩洛-华科2022-2023校一等奖学金.pdf)
+- *2021.09* 获得 第十六届全国大学生智能汽车竞赛 航天智慧物流组 `全国总决赛国家二等奖` [[证书]](pdf\ShaoHaoluo\邵浩洛-第十六届智能车竞赛-国赛.pdf)
+- *2021.07* 获得 第十六届全国大学生智能汽车竞赛 航天智慧物流组 `南部赛区一等奖` [[证书]](pdf\ShaoHaoluo\邵浩洛-第十六届智能车竞赛-省赛.pdf)
+- *2020.11* 获得 武汉理工大学2019-2020学年 `校一等学业奖学金` [[证书]](pdf\ShaoHaoluo\邵浩洛-武理2019-2020校一等奖学金.pdf)
+- *2020.11* 获得 武汉理工大学2019-2020学年 `校三好学生` [[证书]](pdf\ShaoHaoluo\邵浩洛-武理2018-2019校三好学生.pdf)
+- *2019.11* 获得 武汉理工大学2018-2019学年 `校三等学业奖学金` [[证书]](pdf\ShaoHaoluo\邵浩洛-武理2018-2019校三等奖学金.pdf)
 
 
 
-<span class='anchor' id='-gzsx'></span>
+<span class='anchor' id='-sxjl'></span>
 
 # 💻 实习经历
-- *2019.07 - 2019.09*, 泛亚汽车技术中心有限公司, 上海 [[实习成果]]() [[实习证明]]()
+- *2019.07 - 2019.09*, 泛亚汽车技术中心有限公司, 上海 [[实习成果]](pdf\ShaoHaoluo\泛亚实习成果.pdf) [[实习证明]](pdf\ShaoHaoluo\泛亚实习证明.pdf)

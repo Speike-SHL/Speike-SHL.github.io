@@ -7,14 +7,11 @@ main:
   - title: "学历"
     url: "#-xl"
 
-  - title: "论文专利"
-    url: "#-lwzl"
+  - title: "科研经历"
+    url: "#-kyjl"
 
   - title: "荣誉奖项"
     url: "#-ryjx"
 
-  - title: "学术会议"
-    url: "#-xshy"
-
-  - title: "工作实习"
-    url: "#-gzsx"
+  - title: "实习经历"
+    url: "#-sxjl"
