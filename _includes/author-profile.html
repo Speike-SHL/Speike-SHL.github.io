@@ -29,6 +29,9 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
+      {% if author.CV %}
+        <li><a href="{{ author.CV }}"><i class="fas fa-fw fa-graduation-cap"></i> CV</a></li>
+      {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
@@ -118,9 +121,6 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-      {% endif %}
-      {% if author.CV %}
-        <li><a href="{{ author.CV }}"><i class="fas fa-fw fa-graduation-cap"></i> CV</a></li>
       {% endif %}
     </ul>
       <div class="author__urls_sm">
