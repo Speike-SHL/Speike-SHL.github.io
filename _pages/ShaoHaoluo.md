@@ -18,8 +18,8 @@ layout: "default"
 <!-- 这是一个锚点, 用于在页面中定位 -->
 <span class='anchor' id='about-me'></span>
 
-我将硕士毕业于[华中科技大学](https://www.hust.edu.cn/) [机械科学与工程学院](https://mse.hust.edu.cn/) [智能制造装备与技术全国重点实验室](https://dmet.hust.edu.cn/), 我的导师是[李益群教授](https://mse.hust.edu.cn/info/1142/1360.htm)。
-<!-- , 大导师是[熊有伦院士](https://www.hust.edu.cn/info/1133/9445.htm) -->
+我将硕士毕业于[华中科技大学](https://www.hust.edu.cn/) [机械科学与工程学院](https://mse.hust.edu.cn/) [智能制造装备与技术全国重点实验室](https://dmet.hust.edu.cn/)。
+<!--, 我的导师是[李益群教授](https://mse.hust.edu.cn/info/1142/1360.htm) , 大导师是[熊有伦院士](https://www.hust.edu.cn/info/1133/9445.htm) -->
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
 
 我的研究领域包括: 
