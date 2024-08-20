@@ -41,7 +41,7 @@ layout: "default"
 
 # 📝 科研经历
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript is complete, tutor reviewing</div><img src='images\toBeUpdate.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript is complete, tutor reviewing</div><img src='images\ShaoHaoluo\轮足机器人状态估计与高程地图构建.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **轮腿混合式机器人状态估计与高程地图构建**
