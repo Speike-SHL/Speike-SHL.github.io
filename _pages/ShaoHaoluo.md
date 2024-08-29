@@ -131,3 +131,9 @@ layout: "default"
 
 # 💻 实习经历
 - *2019.07 - 2019.09*, 泛亚汽车技术中心有限公司, 上海 [[实习成果]](pdf\ShaoHaoluo\泛亚实习成果.pdf) [[实习证明]](pdf\ShaoHaoluo\泛亚实习证明.pdf)
+
+
+
+
+
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
